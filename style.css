@@ -10,6 +10,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+
+	font-size:100% ;
 }
 
 @font-face {
@@ -25,9 +27,10 @@ header{
 }
 
 header h2{
+
 	text-align: center;
 	word-spacing: 10px;
-	font-size:4em ;
+	font-size:65px ;
 	font-weight: 600;
 	animation: ganpatiji 1s infinite;
 }
@@ -46,13 +49,17 @@ header h2 span{
 
 .centreimg{
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
+	
+	
 	transform: translate(-50%, -50%);
 
 }
 
 .centreimg h3{
+
+	margin-top:20px ;
 	width: 107%;
 	color: #000;
 	text-align: center;
@@ -61,16 +68,18 @@ header h2 span{
 	word-spacing: 10px;
 }
 
-.footer{
+.centreimg p{
 
-	background-color:#000 ;
+	margin-top:30px ;
+	width: 107%;
+	color: #000;
 	text-align: center;
+	font-size: 1.6em;
+	font-weight: 600;
+	word-spacing: 10px;
 }
 
-.footer p{
-	color: #fff;
-	text-align: centre;
-}
+
 
 	
 
@@ -78,23 +87,29 @@ header h2 span{
 
 	header h2{
 	
-	word-spacing: 5px;
-	font-size:3em ;
+	font-size: 23px;
+
+	
 }
 
 .centreimg{
-	margin-top: 60px;
+	margin-top: -5px;
 }
 
 .centreimg img{
-	width: 250px;
+	width: 400px;
+	height: 400px;
 }	
 
 .centreimg h3{
 
-	font-size: 1.2em;
-	word-spacing: 0px;
+	font-size: 20px;
+	word-spacing: 5px;
 	width: 100%;
+
+}
+.centreimg p{
+	font-size: 25px;
 
 }
 }
